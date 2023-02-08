@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top, #00d4ff, #111165);
+    background-color: #4b4c4d;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar{
+    width: 100%;
+    height: 70px;
+    margin: auto;
+}
+
+.icon{
+    width: 300px;
+    float: left;
+    height: 70px;
+    padding-left: 50px;
+}
+
+.logo{
+    color: #ff7200;
+    font-size: 35px;
+    font-family:'monospace';
+    padding-left: 20px;
+    float: left;
+    padding-top: 7px;
+    margin-top: 5px
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 16px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.2s ease-in-out;
+}
+
+ul li a:hover{
+    color: #ff7200;
+}
+
+.search{
+    width: 300px;
+    float: right;
+    margin-left: 270px;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background: #ff7200;
+    border: 2px solid #ff7200;
+    margin-top: 13px;
+    margin-left: 20px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    /* border-bottom-right-radius: 5px; */
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+.btn:hover{
+    color: #000;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    outline: none;
+}
+
+.content{
+    width: 1200px;
+    height: 90vh;
+    margin: auto;
+    color: #fff;
+    position: relative;
+    display: flex;
+    /* flex-direction: row; */
+}
+
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    font-size: 18px;
+    color: #ff7200;
+}
+
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+
+.content .cn{
+    width: 160px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+    
+}
+
+.content .cn a{
+    text-decoration: none;
+    color: #000;
+    transition: .3s ease;
+}
+
+.cn:hover{
+    background-color: #fff;
+}
+
+.content span{
+    color: #ff7200;
+    font-size: 65px
+}
+
+.text {
+    margin: 150px 50px;
+    margin-left: -20px;
+}
+
+.image {
+    float: right;
+    margin-top: 50px;
+    /* margin-left: 350px; */
+    padding-left: 250px;
+
+}
+
+.liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.icons a{
+    text-decoration: none;
+    color: #fff;
+}
+.icons ion-icon{
+    color: #fff;
+    font-size: 30px;
+    padding-left: 14px;
+    padding-top: 5px;
+    transition: 0.3s ease;
+}
+.icons ion-icon:hover{
+    color: #ff7200;
+}
+
+.footer {
+    background-color: black;
+    padding: 40px 0;
+    width: 100%;
+    height: 200px;
+}
+
+.footer .socials {
+    text-align: center;
+    padding-bottom: 25px;
+    color: #4b4c4d;
+}
+
+.footer .socials a {
+    font-size: 30px;
+    color: inherit;
+    /* border: 2px solid #ccc; */
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-blocks;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 15px;
+    opacity: 1;
+}
+
+.footer .socials a:hover {
+    color: #fff;
+    opacity: 0.8;
+}
+
+.footer ul {
+    margin-top: 0;
+    padding-left: 250px;
+    color:white;
+    list-style: none;
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.footer ul li a {
+    /* color: inherit; */
+    text-decoration: none;
+    opacity: 0.8;
+    text-align: center;
+}
+
+.footer ul li{
+    display: inline-block;
+    padding: 0 15px;
+    text-align: center;
+}
+
+
+.footer .copyright {
+    margin: 50px 100px;
+    text-align: center;
+    color: #4b4c4d;
+    font-size: 13px;
+    font-family: 'arial';
+    font-weight: bold;
+}
